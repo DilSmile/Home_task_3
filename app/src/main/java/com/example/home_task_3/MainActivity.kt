@@ -75,34 +75,3 @@ private fun getUserdata(){
 }
 }
 
-
-//
-//
-//private var titlesList = mutableListOf<String>()
-//private var descList = mutableListOf<String>()
-//private var imageList = mutableListOf<Int>()
-//private var priceList = mutableListOf<String>()
-//
-//override fun onCreate(savedInstanceState: Bundle?) {
-//    super.onCreate(savedInstanceState)
-//    setContentView(R.layout.activity_main)
-//
-//    postToList()
-//
-//    rv_recyclerView.layoutManager = LinearLayoutManager(this)
-//    rv_recyclerView.adapter = Adapter(titlesList, descList, imageList, priceList)
-//}
-//
-//private fun addToList(title: String, description: String, image: Int, price: String) {
-//    titlesList.add(title)
-//    descList.add(description)
-//    imageList.add(image)
-//    priceList.add(price)
-//}
-//
-//private fun postToList() {
-//    for (i in 1..25) { // Fixed the typo in the for loop
-//        addToList("Title $i", "Description $i", R.mipmap.ic_launcher_round, "")
-//    }
-//}
-//}
